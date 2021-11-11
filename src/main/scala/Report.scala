@@ -59,30 +59,61 @@ object Report{
     /*
     * @TODO : Refactor the showReport function to have a Menu driven approach
     */
-
+    
+    def showTopTenAirportCountries(): Unit = {
+        println("\n\n=======================================================================================")
+        println("Top ten Countries in terms of highest number of airports : (CountryName, NumberAirport)")
+        println("=======================================================================================")
+        TopTenAirportCountries.foreach{ x => println(x._1 +" "+ x._2 ) }
+    }
+    def showBottomTenAirportCountries(): Unit = {
+        println("\n\n=======================================================================================")
+        println("Bottom ten Countries in terms of lowest number of airports : (CountryName, NumberAirport)")
+        println("=======================================================================================")
+        BottomTenAirportCountries.foreach{ x => println(x._1 +" "+ x._2 ) }
+    }
+    def showTopTenLatitude(): Unit = {
+        println("\n\n=======================================================================================")
+        println("Top ten Latitude in terms of highest number of runways : (Latitude)")
+        println("=======================================================================================")
+        TopTenLatitude.foreach{ x => println(x) }
+    }
+    def showCountrySurfaceType(): Unit = {
+        println("\n\n=======================================================================================")
+        println("Countries having more than one surface type : (CountryName, SurfaceType)")
+        println("=======================================================================================")
+        CountrySurfaceType.foreach{ x => println(x._1.toUpperCase +" "+ x._2.mkString(",").toLowerCase ) }
+    }
 
     /*
     * @TODO: Print all informations
     */
     def showReport(){
-        println("\n\n=======================================================================================")
-        println("Top ten Countries in terms of highest number of airports : (CountryName, NumberAirport)")
-        println("=======================================================================================")
-        TopTenAirportCountries.foreach{ x => println(x._1 +" "+ x._2 ) }
+        println("Menu")
+        println("1. Top ten Countries in terms of highest number of airports")
+        println("2. Bottom ten Countries in terms of lowest number of airports")
+        println("3. Top ten Latitude in terms of highest number of runways")
+        println("4. Countries having more than one surface type")
+        println("5. Show ALL")
+        println("6. Exit")
+        println("Enter your choice : ")
+        println("=======================================================================================\n")
 
-        println("\n\n=======================================================================================")
-        println("Bottom ten Countries in terms of lowest number of airports : (CountryName, NumberAirport)")
-        println("=======================================================================================")
-        BottomTenAirportCountries.foreach{ x => println(x._1 +" "+ x._2 ) }
 
-        println("\n\n=======================================================================================")
-        println("Top 10 most common runway latitude")
-        println("=======================================================================================")
-        TopTenLatitude.foreach{ println }
-         println("\n\n==================================================")
-        println("Country, Types of runways")
-        println("==================================================")
-        CountrySurfaceType.foreach{ x => println(x._1.toUpperCase + " " + x._2.mkString(",").toLowerCase) }
-
+        val choice = scala.io.StdIn.readInt()
+        choice match {
+            case 1 => showTopTenAirportCountries()
+            case 2 => showBottomTenAirportCountries()
+            case 3 => showTopTenLatitude()
+            case 4 => showCountrySurfaceType()
+            case 5 => {
+                showTopTenAirportCountries()
+                showBottomTenAirportCountries()
+                showTopTenLatitude()
+                showCountrySurfaceType()
+            }
+            case 6 => println("Exiting")
+            case _ => println("Invalid choice")
+        }
     }
 }
