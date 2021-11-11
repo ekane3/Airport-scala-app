@@ -62,6 +62,24 @@ object Report{
     * @TODO: Print all informations
     */
     def showReport(){
+        println("\n\n=======================================================================================")
+        println("Top ten Countries in terms of highest number of airports : (CountryName, NumberAirport)")
+        println("=======================================================================================")
+        TopTenAirportCountries.foreach{ x => println(x._1 +" "+ x._2 ) }
+
+        println("\n\n=======================================================================================")
+        println("Bottom ten Countries in terms of lowest number of airports : (CountryName, NumberAirport)")
+        println("=======================================================================================")
+        BottomTenAirportCountries.foreach{ x => println(x._1 +" "+ x._2 ) }
+
+        println("\n\n=======================================================================================")
+        println("Top 10 most common runway latitude")
+        println("=======================================================================================")
+        TopTenLatitude.foreach{ println }
+         println("\n\n==================================================")
+        println("Country, Types of runways")
+        println("==================================================")
+        CountrySurfaceType.foreach{ x => println(x._1.toUpperCase + " " + x._2.mkString(",").toLowerCase) }
 
     }
 }
