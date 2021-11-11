@@ -21,7 +21,8 @@ object Report{
     /*
     * @TODO : Cut the first top 10 and last 10 countries from the sorted list
     */
-    
+    val TopTenAirportCountries: List[(String, Int)] = TopCountries.take(10).map( x=> (getCountryName(x._1), x._2))
+    val BottomTenAirportCountries: List[(String, Int)] = BottomCountries.take(10).map( x=> (getCountryName(x._1), x._2))
 
     /*
     * @TODO : Create a tuple of airport_id and surface type
