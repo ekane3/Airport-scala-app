@@ -48,6 +48,14 @@ object Report{
     /*
     * @TODO: Get The top 10 most common runway latitude
     */
+    val TopTenLatitude: List[String] = runwaysData.map( x => Try{x.split(",")(8)}.getOrElse(""))
+                                                            .groupBy(identity)
+                                                            .mapValues(_.size)
+                                                            .toList
+                                                            .sortWith(_._2 > _._2)
+                                                            .take(10)
+                                                            .map { case (id, count) => id }
+
 
 
     /*
