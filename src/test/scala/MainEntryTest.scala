@@ -1,5 +1,9 @@
 import org.scalatest.funsuite.AnyFunSuite
 
+/**
+*@author: EKANE & NZEKET
+*@version: 1.0
+*/
 
 class MainEntryTest extends AnyFunSuite {
 
