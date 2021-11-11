@@ -2,5 +2,62 @@
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
 [0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 12 products, 6 sources, 1 libraries[0m
 [0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/Query.scala, ${BASE}/src/main/scala/Report.scala, ${BASE}/src/main/scala/MainEntry.scala, ${BASE}/src/main/scala/Airport.scala, ${BASE}/src/main/scala/Country.scala, ${BASE}/src/main/scala/Runway.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/MainEntry.scala, ${BASE}/src/main/scala/Report.scala, ${BASE}/src/main/scala/Query.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/MainEntry.scala, ${BASE}/src/main/scala/Report.scala, ${BASE}/src/main/scala/Query.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(MainEntry, Report, Query)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(MainEntry, Report, Query)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/MainEntry.scala, ${BASE}/src/main/scala/Report.scala, ${BASE}/src/main/scala/Query.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: MainEntry, Report, Query[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\Airport-scala-app\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.5.7:compile for Scala 2.13.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 10eb044a for Scala compiler version 2.13.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Eclipse Adoptium\jdk-8.0.312.7-hotspot\jre\lib\resources.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.312.7-hotspot\jre\lib\rt.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.312.7-hotspot\jre\lib\sunrsasign.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.312.7-hotspot\jre\lib\jsse.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.312.7-hotspot\jre\lib\jce.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.312.7-hotspot\jre\lib\charsets.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.312.7-hotspot\jre\lib\jfr.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.312.7-hotspot\jre\classes;C:\Users\Emile\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\Airport-scala-app\target\scala-2.13\classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Report...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Report[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Report)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of MainEntry: Set(UsedName(showReport,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Report,ModifiedNames(changes = UsedName(showReport,[Default]), UsedName(TopTenAirportCountries,[Default]), UsedName(CountryNameSurfaceType,[Default]), UsedName(CountrySurfaceType,[Default]), UsedName(TopCountries,[Default]), UsedName(AirportIdSurfaceType,[Default]), UsedName(BottomCountries,[Default]), UsedName(BottomTenAirportCountries,[Default]), UsedName(CountryAirportCount,[Default]), UsedName(TopTenLatitude,[Default]))) invalidates 2 classes due to The Report has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(showReport,[Default]), UsedName(TopTenAirportCountries,[Default]), UsedName(CountryNameSurfaceType,[Default]), UsedName(CountrySurfaceType,[Default]), UsedName(TopCountries,[Default]), UsedName(AirportIdSurfaceType,[Default]), UsedName(BottomCountries,[Default]), UsedName(BottomTenAirportCountries,[Default]), UsedName(CountryAirportCount,[Default]), UsedName(TopTenLatitude,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(Report)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by member reference: Set(MainEntry)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Query...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Query[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Query)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of MainEntry. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Query,ModifiedNames(changes = UsedName(showAirportsAndRunways,[Default]))) invalidates 1 classes due to The Query has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(showAirportsAndRunways,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(Query)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainEntry[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: MainEntry[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Report by MainEntry[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Query by MainEntry[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Report[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Query[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set(MainEntry, Report, Query)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.295073 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m

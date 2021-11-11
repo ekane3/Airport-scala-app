@@ -98,7 +98,7 @@ object MainEntry{
                 // User wants to report
                 //showAir(userInput)
                 println("\n\n=============REPORT=============")
-                //showReport()
+                showReport()
             }
 
             case _ => {
