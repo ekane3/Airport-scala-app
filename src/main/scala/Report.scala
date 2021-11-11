@@ -15,12 +15,13 @@ object Report{
     /**
     * @TODO : sort the List of country names with airport count in ascending and descending order
     */
-
+    val TopCountries: List[(String, Int)] = CountryAirportCount.sortWith(_._2 > _._2)
+    val BottomCountries: List[(String, Int)] = CountryAirportCount.sortWith(_._2 < _._2)
 
     /*
     * @TODO : Cut the first top 10 and last 10 countries from the sorted list
     */
-
+    
 
     /*
     * @TODO : Create a tuple of airport_id and surface type
