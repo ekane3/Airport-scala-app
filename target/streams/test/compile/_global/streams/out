@@ -1,0 +1,14 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\src\test\scala\MainEntryTest.scala:1:12: object scalaTest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean scalatest?[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalaTest.funsuite.AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\src\test\scala\MainEntryTest.scala:4:29: not found: type AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass MainEntryTest extends AnyFunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\src\test\scala\MainEntryTest.scala:6:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("MainEntry.getCountryName") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\src\test\scala\MainEntryTest.scala:10:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("MainEntry.getCountryCode") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
