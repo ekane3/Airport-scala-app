@@ -27,18 +27,23 @@ object Report{
     /*
     * @TODO : Create a tuple of airport_id and surface type
     */
-
+    val AirportIdSurfaceType: Map[String, String] = runwaysData.map{ x => (x.split(",")(2), x.split(",")(5)) }.toMap
 
     /*
     * @TODO : Create a tuple containing country name with surface runway type using the airportIdSurfaceType map
     * and the getCountryName function to get name of the country using the airport_id
     */
+    val CountryNameSurfaceType: List[(String, String)] = airportsData.map( x => ( getCountryName(x.split(",")(8) ), Try { AirportIdSurfaceType.get(x.split(",")(1)).get}.getOrElse("") )).toList
 
     /*
     * @TODO : Create a map of country with it sets of Runways surface type using airportSurfaceType
     *  We also filter countries not having surface type
     */
 
+    val CountrySurfaceType: Map[String, Set[String]] = 
+                CountryNameSurfaceType.groupBy(_._1)
+                .filter( x => x._2.size > 1)
+                .mapValues( x => x.map(_._2).toSet).toMap
 
     /*
     * @TODO: Get The top 10 most common runway latitude
