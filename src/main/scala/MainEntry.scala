@@ -4,14 +4,18 @@ import scala.io.StdIn
 import Query._
 import Report._
 
+/**
+*@author: EKANE & NZEKET
+*@version: 1.0
+*/
+
+
+/**
+ * Creating a case class for Airports with country, airport name, identifier and runways.
+ */
+//case class AirportAndRunways(country: String, airportName: String, airportIdentifier: String, runways: List[String] = List[String]())
+
 object MainEntry{
-
-    /*
-    * @TODO : // Standard messages for user interaction
-    */
-    val QUERY_REPORT_MESSAGE: String = "Please what do you want ? A QUERY or REPORTS \nEnter : \n\tquery : for query. e.g: list airports of a country \n\treport: to show fresh analysis of airports \n"
-    val COUNTRY_CODE_MESSAGE: String = "Please Enter a Country Code or Country Name \n "
-
 
     /*
     * @TODO: path to the csv files
@@ -26,7 +30,6 @@ object MainEntry{
     val airportsData: List[String] = Source.fromFile(new File(airportFile)).getLines.drop(1).toList map(_.replaceAll("\"", ""))
     val countriesData: List[String] = Source.fromFile(new File(countryFile)).getLines.drop(1).toList map { _.replaceAll("\"", "") }
     val runwaysData: List[String] = Source.fromFile(new File(runwaysFile)).getLines.drop(1).toList map { _.replaceAll("\"", "") }
-
 
 
     /*
@@ -69,7 +72,7 @@ object MainEntry{
     def readUserInput(): String = {
         var userInput: String = ""
         do {
-            userInput = StdIn.readLine(QUERY_REPORT_MESSAGE)
+            userInput = StdIn.readLine("Please what do you want ? A QUERY or REPORTS \nEnter : \n\tquery : for query. e.g: list airports of a country \n\treport: to show fresh analysis of airports \n")
             userInput = userInput.toLowerCase()
         } while (!(userInput.equals("query") || userInput.equals("report")))
         userInput
@@ -93,7 +96,7 @@ object MainEntry{
                 // User wants to query
                 //showAirports(userInput)
                 println("\n\n=============QUERY=============")
-            }
+                showAirportsAndRunways(getAirtportsWithRunways(readQueryUserInput()))            }
             case "report" => {
                 // User wants to report
                 //showAir(userInput)
