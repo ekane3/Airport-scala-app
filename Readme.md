@@ -33,7 +33,7 @@ So the app has two parts : query and report.
 
 - Running the app:  
     - Menu : choose query or report  
-
+    ![screnshot](src/main/images/capture_menu.png)
     <img src="src/main/images/capture_menu.png" alt="Screenshot of tests - sbt test" style="margin: 10px;" />  
 
     If user enters query we have  the following 👇 :
