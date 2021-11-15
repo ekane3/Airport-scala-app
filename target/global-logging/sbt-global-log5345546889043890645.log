@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(cb6a7ba5-b134-417e-b213-73bf4ab070a9), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCubeCalculatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CubeCalculator.cube[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CubeCalculator.cube negative number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CubeCalculator.cube zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMainEntryTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- MainEntry.getCountryName[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- MainEntry.getCountryCode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 475 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 11 nov. 2021 04:11:25[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

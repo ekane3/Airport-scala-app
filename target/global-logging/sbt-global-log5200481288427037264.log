@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(31b31a66-6746-419b-bb5e-37682ef70dc6), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\Airport-scala-app\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\Airport-scala-app\src\main\scala\Query.scala:26:19: not found: value codeFromCountry[0m
+[0m[[0m[31merror[0m] [0m[0m        case _ => codeFromCountry(countryFromPartialName(passedInput))[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\Airport-scala-app\src\main\scala\Query.scala:55:89: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: AirportAndRunways[0m
+[0m[[0m[31merror[0m] [0m[0m        val ListOfRequiredAirports:List[AirportAndRunways] = ListOfAirports.map{ x => x.airportIdentifier}[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\Airport-scala-app\src\main\scala\Query.scala:56:135: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : List[String][0m
+[0m[[0m[31merror[0m] [0m[0m required: List[AirportAndRunways][0m
+[0m[[0m[31merror[0m] [0m[0m        val ListOfRequiredRunways:List[AirportAndRunways] = runwaysData.filter{ x=> ListOfRequiredAirports.contains(x.split(",")(2))}.toList[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\Airport-scala-app\src\main\scala\Query.scala:60:118: value split is not a member of AirportAndRunways[0m
+[0m[[0m[31merror[0m] [0m[0m            x =>    AirportAndRunways(x.country, x.airportName, x.airportIdentifier, ListOfRequiredRunways.filter{ _.split(",")(2) == x.airportIdentifier})[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed 11 nov. 2021 17:59:13[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

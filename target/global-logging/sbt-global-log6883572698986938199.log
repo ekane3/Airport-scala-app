@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(9eb1370d-4063-43f5-a7cd-ddfbfd2a9768), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\Airport-scala-app\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\Airport-scala-app\src\main\scala\Report.scala:36:117: not found: value Try[0m
+[0m[[0m[31merror[0m] [0m[0m    val CountryNameSurfaceType: List[(String, String)] = airportsData.map( x => ( getCountryName(x.split(",")(8) ), Try { AirportIdSurfaceType.get(x.split(",")(1)).get}.getOrElse("") )).toList[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\Airport-scala-app\src\main\scala\Report.scala:51:62: not found: value Try[0m
+[0m[[0m[31merror[0m] [0m[0m    val TopTenLatitude: List[String] = runwaysData.map( x => Try{x.split(",")(8)}.getOrElse(""))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\Airport-scala-app\src\main\scala\Report.scala:52:70: missing argument list for method identity in object Predef[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `identity _` or `identity(_)` instead of `identity`.[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            .groupBy(identity)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed 11 nov. 2021 16:28:38[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(80341223-e069-4869-8459-6839ca98bfba), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\Airport-scala-app\target\scala-2.13\classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 9 s, completed 11 nov. 2021 18:09:33[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

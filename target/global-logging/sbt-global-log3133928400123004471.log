@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(431be025-8092-46c2-8f1b-67971dad12d7), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\src\main\scala\Report.scala:23:45: not found: value groupByMapAirportsCount[0m
+[0m[[0m[31merror[0m] [0m[0m    val TopCountries: List[(String, Int)] = groupByMapAirportsCount.sortWith(_._2 > _._2)[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\src\main\scala\Report.scala:24:48: not found: value groupByMapAirportsCount[0m
+[0m[[0m[31merror[0m] [0m[0m    val BottomCountries: List[(String, Int)] = groupByMapAirportsCount.sortWith(_._2 < _._2)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 10 nov. 2021 17:21:38[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

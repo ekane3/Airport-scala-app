@@ -1,0 +1,30 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(4a46a614-cf2a-4a52-83d4-15b58505b176), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\src\main\scala\CubeCalculator.scala:4:22: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m    else if (x == 0) 0[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\src\main\scala\CubeCalculator.scala:5:10: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m    else 0[0m
+[0m[[0m[33mwarn[0m] [0m[0m         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\target\scala-2.13\test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCubeCalculatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- CubeCalculator.cube *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  <(), the Unit value> did not equal 27 (CubeCalculatorTest.scala:5)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- CubeCalculator.cube negative number *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  <(), the Unit value> did not equal 0 (CubeCalculatorTest.scala:9)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- CubeCalculator.cube zero *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  <(), the Unit value> did not equal 0 (CubeCalculatorTest.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 402 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 3, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 3 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	CubeCalculatorTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed 10 nov. 2021 10:24:15[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

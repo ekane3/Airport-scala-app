@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(a6747dbd-0a32-4306-8b91-04a04800e7b2), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\target\scala-2.13\test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCubeCalculatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CubeCalculator.cube[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CubeCalculator.cube negative number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CubeCalculator.cube zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 378 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed 10 nov. 2021 10:27:16[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

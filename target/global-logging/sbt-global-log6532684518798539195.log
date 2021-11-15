@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(3ec79e0b-0d9c-4a20-b287-46bef4d12f88), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\src\main\scala\Report.scala:13:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval countryAirportCount: List[(String, Int)] = airportsData.map(_.split(",")(8)).groupBy(identity).mapValues { _.size }.toList[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\src\main\scala\Report.scala:18:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval TopCountries: List[(String, Int)] = groupByMapAirportsCount.sortWith(_._2 > _._2)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\src\main\scala\Report.scala:19:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval BottomCountries: List[(String, Int)] = groupByMapAirportsCount.sortWith(_._2 < _._2)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\src\main\scala\Report.scala:24:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval TopTenAirportCountries: List[(String, Int)] = TopCountries.take(10).map( x=> (getCountryName(x._1), x._2))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Emile\OneDrive - Efrei\Bureau\OTHERS\Programmes\Scala\scalatesttutorial\src\main\scala\Report.scala:25:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval BottomTenAirportCountries: List[(String, Int)] = BottomCountries.take(10).map( x=> (getCountryName(x._1), x._2))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 10 nov. 2021 17:20:32[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

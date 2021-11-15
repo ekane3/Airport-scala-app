@@ -1,12 +1,12 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(QueryTest, org.scalatest.tools.Framework$$anon$1@1f1e7f0a, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MainEntryTest, org.scalatest.tools.Framework$$anon$1@1f1e7f0a, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mMainEntryTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- MainEntry.getCountryName[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- MainEntry.getCountryCode[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MainEntryTest, org.scalatest.tools.Framework$$anon$1@6fb2eaf, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(QueryTest, org.scalatest.tools.Framework$$anon$1@6fb2eaf, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mQueryTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Query.getCountryName[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Query.getCountryCode[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 734 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMainEntryTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- MainEntry.getCountryName[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- MainEntry.getCountryCode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 704 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m
