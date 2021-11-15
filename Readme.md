@@ -33,18 +33,17 @@ So the app has two parts : query and report.
 
 - Running the app:  
     - Menu : choose query or report  
-    ![screnshot](src/main/images/capture_menu.png)
-    <img src="src/main/images/capture_menu.png" alt="Screenshot of tests - sbt test" style="margin: 10px;" />  
+    ![Screenshot menu ](https://i.imgur.com/7YX133k.png) 
 
     If user enters query we have  the following 👇 :
 
     - Query :  
-    <img src="src/main/images/capture_query.png" alt="Screenshot of tests - sbt test" style="margin: 10px;" />  
+    ![Screenshot menu](https://i.imgur.com/iufZ3yw.png) 
     - Report :  
-    <img src="src/main/images/capture_report.png" alt="Screenshot of tests - sbt test" style="margin: 10px;" /> 
+    ![Screenshot report](https://i.imgur.com/yJfwKAw.png)
 
 <br>
 
 - Running the tests:  
 
-<img src="src/main/images/capture_test.png" alt="Screenshot of tests - sbt test" style=" margin: 10px;" />
+![Screenshot running test](https://i.imgur.com/NBQTjao.png)
