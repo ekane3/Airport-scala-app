@@ -34,17 +34,17 @@ So the app has two parts : query and report.
 - Running the app:  
     - Menu : choose query or report  
 
-    <img src="src/main/images/capture_menu.png" alt="Screenshot of tests - sbt test" style="margin: 10px;" />  
+    <img src="https://github.com/ekane3/Airport-scala-app/tree/master/src/main/images/capture_menu.png" alt="Screenshot of tests - sbt test" style="margin: 10px;" />  
 
     If user enters query we have  the following 👇 :
 
     - Query :  
-    <img src="src/main/images/capture_query.png" alt="Screenshot of tests - sbt test" style="margin: 10px;" />  
+    <img src="https://github.com/ekane3/Airport-scala-app/tree/master/src/main/images/capture_query.png" alt="Screenshot of tests - sbt test" style="margin: 10px;" />  
     - Report :  
-    <img src="src/main/images/capture_report.png" alt="Screenshot of tests - sbt test" style="margin: 10px;" /> 
+    <img src="https://github.com/ekane3/Airport-scala-app/tree/master/src/main/images/capture_report.png" alt="Screenshot of tests - sbt test" style="margin: 10px;" /> 
 
 <br>
 
 - Running the tests:  
 
-<img src="src/main/images/capture_test.png" alt="Screenshot of tests - sbt test" style=" margin: 10px;" />
+<img src="https://github.com/ekane3/Airport-scala-app/tree/master/src/main/images/capture_test.png" alt="Screenshot of tests - sbt test" style=" margin: 10px;" />
